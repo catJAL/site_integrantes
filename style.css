@@ -1,19 +1,22 @@
 * {
     margin: 0;
+    color: white;
     padding: 0;
    }
    body{
     background-color: #1c132e  ;
   }
   .row {
-    display: -webkit-flex;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
   }
   .coluna {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 0.3;
+    display: flex;
+    flex-direction: column;
     background-color: rgba(176, 184, 209, 0);
+    margin: 0;
   }
   .esquerda {
     text-align: center;
